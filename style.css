@@ -21,24 +21,42 @@ body {
     height: 230px ;
 }
 
+li {
+    margin: 25px 25px 0px;
+}
+
 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style: none;
     
 }
 
-.centro {
+.menu {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.centro {
+    margin: 1in 6in 0in;
+}
+
+.centro2 {
+    display: flex;
+    
     align-items: center;
-    margin-left: 1in;
+    justify-content: space-between;
     font-family: 'Sixtyfour', sans-serif;
+    margin: 15px 15px 0px;
     color:aqua;
 
 }
 
-.contenedor {
+.contendor {
     display: flex;
-    align-items: center;
 }
