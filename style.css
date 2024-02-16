@@ -10,9 +10,6 @@ nav {
     display: flex;
 }
 
-.contendor {
-    display:flex;
-}
 
 .panel {
     display: flex;
@@ -40,6 +37,7 @@ ul {
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style: none;
+    text-align: center;
     
 }
 
@@ -48,17 +46,19 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: sticky;
     top: 0px;
     height: 400px;
 }
+
+
 
 
 .centro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1in 6in 0in;
+    justify-content: center;
+    margin: 3in 6in 0in;
 }
 
 .art {
@@ -69,6 +69,7 @@ ul {
 }
 
 p {
+    text-align: center;
     font-family: 'Sixtyfour', sans-serif;
     color:aqua;
 }
@@ -102,4 +103,24 @@ button span{
 }
 button:hover span {
     background: none;
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2in;
+    height: 2in;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.contactbox {
+    display: flex;
+    justify-content: center;
+
 }
