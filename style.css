@@ -27,6 +27,7 @@ nav {
 
 li {
     margin: 25px 25px 0px;
+    color:aqua;
 }
 
 ul {
@@ -34,7 +35,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    color: aliceblue;
+    color:aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style: none;
     text-align: center;
@@ -68,7 +69,7 @@ ul {
 
 }
 
-p {
+p, h1, h2{
     text-align: center;
     font-family: 'Sixtyfour', sans-serif;
     color:aqua;
